@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div >
-      PHONE DIRECTORY
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div >
+        PHONE DIRECTORY
+      </div >
+    );
+  }
 }
 
 export default App;
